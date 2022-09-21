@@ -12,7 +12,7 @@ const TopNav = () => {
         <p className='logo' >Logo</p>
         <div className='search__container' > 
             <input type="search" name="" value=""/>
-            <button type=""><BiSearchAlt/></button>
+            <button type=""><BiSearchAlt className='search__icon' /></button>
         </div>
         <div className='customer__support' >
                 <MdOutlineHeadsetMic className='customer__support-icon'/>
@@ -22,7 +22,7 @@ const TopNav = () => {
             </div>
         </div>
         <div className='account' >
-            <FaRegUser/>
+            <FaRegUser className='account__icon' />
             <p>My Account</p>
         </div>
         <div className='cart' >

@@ -1,5 +1,13 @@
-.home{
-    nav{
-        color: red;
-    }
+.home {
+  nav {
+    color: black;
+  }
+  .sidenav {
+    height: 100rem;
+    width: 25rem;
+    background: var(--primary-color);
+    margin-left: 8rem;
+    margin-top: 3rem;
+    background-color: gray;
+  }
 }

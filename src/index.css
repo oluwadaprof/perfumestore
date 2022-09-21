@@ -3,4 +3,11 @@ body {
   
 }
 
+:root{
+  --primary-color: #D52027;
+  --background-color: #FFFFFF;
+  --footer-color: #33373E;
+  --icon-container_color: #F6F6F6;
+}
+
 
