@@ -1,0 +1,12 @@
+nav{
+    ul{
+        margin-left: -8rem;
+        margin-top: 2rem;
+        .main__nav-item{
+            list-style: none;
+            text-align: left;
+            display: inline-block;
+            margin-left: 1.5rem;
+        }
+    }
+}

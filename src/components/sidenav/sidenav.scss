@@ -52,44 +52,141 @@ nav {
     width: 21.8rem;
     background-color: none;
     color: black;
+    // z-index: 1;
     ul{
-        
+      margin-top: 1rem;
         li{
             color: white;
             list-style: none;
             text-align: left;
-            margin-left: -1.8rem;
+           
+            margin-left: 5.8rem;
             line-height: 2rem;
         }
     }
   }
   .brand__image{
-    transition: 1s ease-in-out;
-    width: 21.7rem;
-    height: 28rem;
-    border: 1px solid black;
-    position: relative;
-    top: 28rem;
-    left: -54.5rem;
-    border-radius: 5px;
-  }
-  .brand__image-top{
-    transition: 1s ease-in-out;
+    // transition: 1s ease-in-out;
     width: 21.7rem;
     height: 28rem;
     border: 1px solid black;
     position: relative;
     top: 6rem;
-    left: -32.6rem;
+    left: -32.5rem;
     border-radius: 5px;
   }
-  .service__container{
+  .brand__image-top{
+    // transition: 1s ease-in-out;
     width: 21.7rem;
     height: 28rem;
     border: 1px solid black;
     position: relative;
-    top: 62rem;
+    top: 26rem;
+    left: -54.6rem;
+    border-radius: 5px;
+  }
+  
+  .service__container-top{
+    width: 21.7rem;
+    height: 28rem;
+    border: 1px solid black;
+   position: relative;
+    top: 38rem;
+    left: -54.4rem;
+    border-radius: 5px;
+    .service__card-one{
+      display: flex;
+      padding: 1rem;
+      border-bottom: 1px solid white;
+      .service__card-icon{
+        font-size: 2.2rem;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+      }
+      .service__card-text{
+        margin-left: 2rem;
+        text-align: left;
+      }
+    }
+    .service__card-two{
+      display: flex;
+      padding: 1rem;
+      border-bottom: 1px solid white;
+      .service__card-icon{
+        font-size: 2.5rem;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+      }
+      .service__card-text{
+        margin-left: 2rem;
+        text-align: left;
+      }
+    }
+    .service__card-three{
+      display: flex;
+      padding: 1rem;
+      .service__card-icon{
+        font-size: 2.5rem;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+      }
+      .service__card-text{
+        margin-left: 2rem;
+        text-align: left;
+      }
+    }
+  }
+
+
+  .service__container{
+    width: 21.7rem;
+    height: 28rem;
+    border: 1px solid black;
+    background:red ;
+    position: relative;
+    top: 57rem;
     left: -89.5rem;
     border-radius: 5px;
+    .service__card-one{
+      display: flex;
+      padding: 1rem;
+      border-bottom: 1px solid white;
+      .service__card-icon{
+        font-size: 2.2rem;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+      }
+      .service__card-text{
+        margin-left: 2rem;
+        text-align: left;
+      }
+    }
+    .service__card-two{
+      display: flex;
+      padding: 1rem;
+      border-bottom: 1px solid white;
+      .service__card-icon{
+        font-size: 2.5rem;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+      }
+      .service__card-text{
+        margin-left: 2rem;
+        text-align: left;
+      }
+    }
+    .service__card-three{
+      display: flex;
+      padding: 1rem;
+      .service__card-icon{
+        font-size: 2.5rem;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+      }
+      .service__card-text{
+        margin-left: 2rem;
+        text-align: left;
+      }
+    }
   }
 }
