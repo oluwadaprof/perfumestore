@@ -1,0 +1,38 @@
+.newarrivals{
+    .header__content{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid gray;
+        p{
+            justify-self: flex-start;
+            padding: 1rem;
+            font-size: 1rem;
+        }
+        .arrow__buttons{
+           padding: 1rem;
+           display: flex;
+           justify-content: space-between;
+           .arrow__icon{
+            background-color: gray;
+            border-radius: 3px;
+            height: 2rem;
+            width: 2rem;
+            color: white;
+            padding: .5rem;
+            margin-left: 1rem;
+            &:hover{
+                color: white;
+                background-color: red;
+                cursor: pointer;
+               }
+           }
+           
+        }
+    }
+    .product__container{
+        margin-top: 2rem;
+        width: 69rem;
+        height: 80rem;
+        // background: red;
+    }
+}
