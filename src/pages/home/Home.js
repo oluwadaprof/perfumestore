@@ -1,4 +1,5 @@
 import React from "react";
+import BestSellers from "../../components/bestsellers/BestSellers";
 import MainNav from "../../components/mainnav/MainNav";
 import NewArrivals from "../../components/newarrivals/NewArrivals";
 import SideNav from "../../components/sidenav/SideNav";
@@ -45,6 +46,7 @@ const Home = () => {
       </section>
       <section className="new__arrivals" >
         <NewArrivals/>
+        <BestSellers/>
       </section>
     </div>
   );

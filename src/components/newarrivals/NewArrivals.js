@@ -16,6 +16,14 @@ const NewArrivals = () => {
       </header>
       <section className="product__container" >
         <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
       </section>
     </div>
   );

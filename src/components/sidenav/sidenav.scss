@@ -32,12 +32,16 @@ nav {
         }
       }
       .dropdown__icon{
-        margin-left: 3rem;
-        margin-top: 1.3rem;
+        margin-left: 2rem;
+        margin-top: 1.1rem;
         font-size: 1.8rem;
         color: white;
+        height: 2rem;
+        width: 3rem;
         &:hover{
             cursor: pointer;
+            background-color: rgb(233, 166, 166);
+            border-radius: 2px;
         }
       }
     }
