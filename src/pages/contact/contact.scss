@@ -1,0 +1,50 @@
+.contact{
+    nav {
+        color: black;
+      }
+      .sidenav {
+        height: 100rem;
+        width: 25rem;
+        background: var(--primary-color);
+        margin-left: 8rem;
+        margin-top: 3rem;
+        background-color: gray;
+      }
+      .main-page{
+        position:relative;
+        top: -101rem;
+        left: 36rem;
+        height: 80rem;
+        width: 60rem;
+      }
+      .header__content {
+        display: flex;
+        width: 58rem;
+        justify-content: space-between;
+        border-bottom: 1px solid gray;
+        margin-left: 38rem;
+        margin-top: -175rem;
+        p {
+          justify-self: flex-start;
+          padding: 1rem;
+          font-size: 1rem;
+          margin-left: -1rem;
+        }
+      }
+      .contact__details{
+        padding-top: 3rem ;
+        width: 60rem;
+        height: 15rem;
+        // background: red;
+        margin-left: 36rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        // margin: auto;
+        p{
+          font-size: 1rem;
+        }
+        .contact__icon{
+          font-size: 2.5rem;
+        }
+      }
+}

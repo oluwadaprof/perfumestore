@@ -1,20 +1,57 @@
-.about{
-    nav {
-        color: black;
+.about {
+  nav {
+    color: black;
+  }
+  .sidenav {
+    height: 100rem;
+    width: 25rem;
+    background: var(--primary-color);
+    margin-left: 8rem;
+    margin-top: 3rem;
+    background-color: gray;
+  }
+  .main-page {
+    position: relative;
+    top: -101rem;
+    left: 36rem;
+    height: 80rem;
+    width: 60rem;
+    .header__content {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid gray;
+      margin-left: 1.5rem;
+      p {
+        justify-self: flex-start;
+        padding: 1rem;
+        font-size: 1rem;
+        margin-left: -1rem;
       }
-      .sidenav {
-        height: 100rem;
-        width: 25rem;
-        background: var(--primary-color);
-        margin-left: 8rem;
-        margin-top: 3rem;
-        background-color: gray;
+    }
+    h1{
+      font-size: 3rem;
+      text-align: left;
+      margin-left: 1rem;
+    }
+    .store__details{
+      text-align: left;
+      margin-left: 1rem;
+    }
+    .contact__details{
+      padding-top: 3rem ;
+      width: 60rem;
+      height: 15rem;
+      // background: red;
+      margin-left: 1rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin: auto;
+      p{
+        font-size: 1rem;
       }
-      .main-page{
-        position:relative;
-        top: -101rem;
-        left: 36rem;
-        height: 80rem;
-        width: 60rem;
+      .contact__icon{
+        font-size: 2.5rem;
       }
+    }
+  }
 }
