@@ -5,6 +5,7 @@ import { HiChevronDown } from "react-icons/hi";
 import { FiPhoneCall } from "react-icons/fi";
 import { TbTruckDelivery } from "react-icons/tb";
 import { GiCash } from "react-icons/gi";
+import { NavLink } from "react-router-dom";
 
 const SideNav = () => {
   const [showdropdown, setshowdropdown] = useState(false);
@@ -29,7 +30,14 @@ const SideNav = () => {
               handleAdjustImage();
             }}
           />
-          <p>All Category</p>
+          <p
+            onClick={() => {
+              handleShowDropdown();
+              handleAdjustImage();
+            }}
+          >
+            All Category
+          </p>
           <HiChevronDown
             className="dropdown__icon"
             onClick={() => {
@@ -42,37 +50,41 @@ const SideNav = () => {
       {showdropdown && (
         <section className="category__dropdown">
           <ul>
-            <li>
+            <NavLink className="li">
               <a>BRANDS</a>
-            </li>
-            <li>
+            </NavLink>
+            <NavLink className="li">
               <a>WOMEN</a>
-            </li>
-            <li>
+            </NavLink>
+            <NavLink className="li">
               <a>MEN</a>
-            </li>
-            <li>
+            </NavLink>
+            <NavLink className="li">
               <a>UNISEX</a>
-            </li>
-            <li>
+            </NavLink>
+            <NavLink className="li">
               <a>CHILDREN</a>
-            </li>
-            <li>
+            </NavLink>
+            <NavLink className="li">
               <a>GIFT SETS</a>
-            </li>
-            <li>
+            </NavLink>
+            <NavLink className="li">
               <a>DEODORANTS</a>
-            </li>
-            <li>
+            </NavLink>
+            <NavLink to='/offer' className="li">
               <a>OFFERS</a>
-            </li>
+            </NavLink>
           </ul>
         </section>
       )}
       <section
         className={adjustImage ? "brand__image" : "brand__image-top"}
       ></section>
-      <section className={adjustImage ? "service__container-top" :   "service__container"}>
+      <section
+        className={
+          adjustImage ? "service__container-top" : "service__container"
+        }
+      >
         <div className="service__card-one">
           <FiPhoneCall className="service__card-icon" />
           <div className="service__card-text">

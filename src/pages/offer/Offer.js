@@ -1,8 +1,9 @@
-import React from 'react'
-import './offer.scss'
+import React from "react";
+import "./offer.scss";
 import SideNav from "../../components/sidenav/SideNav";
 import TopNav from "../../components/topnav/TopNav";
 import MainNav from "../../components/mainnav/MainNav";
+import ProductCard from "../../components/productcard/ProductCard"
 
 const Offer = () => {
   return (
@@ -16,8 +17,21 @@ const Offer = () => {
       <div className="main-page">
         <MainNav />
       </div>
-    </div>
-  )
-}
 
-export default Offer
+      <section className="offers">
+        <header className="header__content">
+          <p>OFFERS</p>
+        </header>
+      </section>
+
+      <section className="product__container">
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
+      </section>
+    </div>
+  );
+};
+
+export default Offer;

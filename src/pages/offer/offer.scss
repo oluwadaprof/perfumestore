@@ -1,4 +1,4 @@
-.offer{
+.contact{
     nav {
         color: black;
       }
@@ -16,5 +16,23 @@
         left: 36rem;
         height: 80rem;
         width: 60rem;
+      }
+      .header__content{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid gray;
+        p{
+            justify-self: flex-start;
+            padding: 1rem;
+            font-size: 1rem;
+        }
+      }
+      .product__container{
+        // position: absolute;
+        margin-left: 39rem;
+        margin-top: 3rem;
+       row-gap: 3rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
       }
 }
