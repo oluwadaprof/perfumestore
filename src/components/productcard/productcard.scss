@@ -18,6 +18,11 @@
         width: 18rem;
         height: 18rem;
         margin-top: 3.5rem;
+        &:hover{
+            filter: blur(1px);
+            transition: all .1ms ease-in-out;
+            cursor: pointer;
+        }
 
     }
     .product__details{

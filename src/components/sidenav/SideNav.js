@@ -8,7 +8,7 @@ import { GiCash } from "react-icons/gi";
 import { NavLink } from "react-router-dom";
 
 const SideNav = () => {
-  const [showdropdown, setshowdropdown] = useState(false);
+  const [showdropdown, setshowdropdown] = useState(true);
   const handleShowDropdown = () => {
     setshowdropdown(!showdropdown);
   };
@@ -17,7 +17,7 @@ const SideNav = () => {
   const handleAdjustImage = () => {
     setadjustImage(!adjustImage);
   };
-  //onClick={() => { func1(); func2();}}
+
 
   return (
     <nav>

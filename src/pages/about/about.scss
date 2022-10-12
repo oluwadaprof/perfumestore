@@ -1,5 +1,6 @@
 .about {
   nav {
+    width: 25rem;
     color: black;
   }
   .sidenav {
@@ -9,6 +10,7 @@
     margin-left: 8rem;
     margin-top: 3rem;
     background-color: gray;
+   
   }
   .main-page {
     position: relative;
@@ -16,6 +18,7 @@
     left: 36rem;
     height: 80rem;
     width: 60rem;
+    // background-color: red;
     .header__content {
       display: flex;
       justify-content: space-between;

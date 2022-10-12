@@ -11,7 +11,7 @@ const TopNav = () => {
     <nav>
         <p className='logo' >Logo</p>
         <div className='search__container' > 
-            <input type="search" name="" value=""/>
+            <input placeholder="search" />
             <button type=""><BiSearchAlt className='search__icon' /></button>
         </div>
         <div className='customer__support' >
