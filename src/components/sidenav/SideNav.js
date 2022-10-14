@@ -51,28 +51,28 @@ const SideNav = () => {
         <section className="category__dropdown">
           <ul>
             <NavLink className="li">
-              <a>BRANDS</a>
+              BRANDS
             </NavLink>
             <NavLink className="li">
-              <a>WOMEN</a>
+              WOMEN
             </NavLink>
             <NavLink className="li">
-              <a>MEN</a>
+              MEN
             </NavLink>
             <NavLink className="li">
-              <a>UNISEX</a>
+              UNISEX
             </NavLink>
             <NavLink className="li">
-              <a>CHILDREN</a>
+              CHILDREN
             </NavLink>
             <NavLink className="li">
-              <a>GIFT SETS</a>
+              GIFT SETS
             </NavLink>
             <NavLink className="li">
-              <a>DEODORANTS</a>
+              DEODORANTS
             </NavLink>
             <NavLink to='/offer' className="li">
-              <a>OFFERS</a>
+              OFFERS
             </NavLink>
           </ul>
         </section>
