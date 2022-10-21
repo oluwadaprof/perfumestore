@@ -10,14 +10,7 @@ import { HiOutlineMailOpen } from "react-icons/hi";
 const about = () => {
   return (
     <div className="about">
-      <nav className="top__nav">
-        <TopNav />
-      </nav>
-      <nav className="sidenav">
-        <SideNav />
-      </nav>
       <div className="main-page">
-        <MainNav />
         <header className="header__content">
           <p>ABOUT US</p>
         </header>

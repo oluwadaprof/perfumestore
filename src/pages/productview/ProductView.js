@@ -17,14 +17,14 @@ const ProductView = () => {
 
   return (
     <div className="productview">
-      <nav className="top__nav">
+      {/* <nav className="top__nav">
         <TopNav />
       </nav>
       <nav className="sidenav">
         <SideNav />
-      </nav>
+      </nav> */}
       <div className="main-page">
-        <MainNav />
+        {/* <MainNav /> */}
         <div className="header__container">
           <p>Salvatore Ferragamo Signorina Ribelle EDP 100ml For Women</p>
         </div>

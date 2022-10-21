@@ -1,5 +1,6 @@
 nav{
     z-index: 999;
+    margin-left: -2rem;
     ul{
         margin-left: -7rem;
         margin-top: 2rem;
@@ -9,10 +10,15 @@ nav{
             text-align: left;
             display: inline-block;
             margin-left: 2rem;
+            // color: blue;
             &:hover{
                 color: red;
                 cursor: pointer;
             }
+            &:active{
+                color: green;
+            }
         }
+        
     }
 }

@@ -1,8 +1,5 @@
 import React from "react";
 import "./contact.scss";
-import SideNav from "../../components/sidenav/SideNav";
-import TopNav from "../../components/topnav/TopNav";
-import MainNav from "../../components/mainnav/MainNav";
 import { BsTelephone } from "react-icons/bs";
 import { IoLocationOutline } from "react-icons/io5";
 import { HiOutlineMailOpen } from "react-icons/hi";
@@ -10,15 +7,6 @@ import { HiOutlineMailOpen } from "react-icons/hi";
 const Contact = () => {
   return (
     <div className="contact">
-      <nav className="top__nav">
-        <TopNav />
-      </nav>
-      <nav className="sidenav">
-        <SideNav />
-      </nav>
-      <div className="main-page">
-        <MainNav />
-      </div>
       <header className="header__content">
         <p>CONTACT US</p>
       </header>
@@ -39,6 +27,13 @@ const Contact = () => {
             <p>08126019796</p>
           </div>
         </div>
+        <form>
+          <input type='input' placeholder="name" />
+          <input type='input' placeholder="email"/>
+          <input type='input' placeholder="phonenumber"/>
+          <textarea cols="10" rows="5" charswidth="23" placeholder="comment" />
+          <button>Send</button>
+        </form>
     </div>
   );
 };

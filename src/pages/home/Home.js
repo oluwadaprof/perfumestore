@@ -1,22 +1,15 @@
 import React from "react";
 import BestSellers from "../../components/bestsellers/BestSellers";
-import MainNav from "../../components/mainnav/MainNav";
+
 import NewArrivals from "../../components/newarrivals/NewArrivals";
-import SideNav from "../../components/sidenav/SideNav";
-import TopNav from "../../components/topnav/TopNav";
+
 import "./home.scss";
 
 const Home = () => {
   return (
     <div className="home">
-      <nav className="top__nav">
-        <TopNav />
-      </nav>
-      <nav className="sidenav">
-        <SideNav />
-      </nav>
       <section className="main-page">
-        <MainNav />
+       
         <div className="homepage-content">
           <div className="explore__card">
             <p className="explore__card-text" >Header</p>

@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  width: 50rem;
+  nav {
+    color: black;
+    width: 25rem;
+  }
+  .sidenav {
+    height: 100rem;
+    width: 25rem;
+    background: var(--primary-color);
+    margin-left: 8rem;
+    margin-top: 3rem;
+    background-color: gray;
+  }
+  .main-page {
+    position: relative;
+    top: -101rem;
+    left: 36rem;
+    z-index: 1;
+  }
+}
+
